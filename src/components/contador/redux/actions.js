@@ -9,3 +9,4 @@ export function decrementar(text) {
   export function incrementar(text) {
     return { type: DECREMENTAR, text }
   }
+

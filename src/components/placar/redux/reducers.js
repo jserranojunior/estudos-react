@@ -1,5 +1,5 @@
-import { ADD_GOL_CASA } from './actions'
-import { ADD_GOL_VISITANTE } from './actions'
+import { ADD_GOL_CASA, ADD_GOL_VISITANTE } from './actions'
+
 
 const stateInitial ={
     golsVisitante: 0,

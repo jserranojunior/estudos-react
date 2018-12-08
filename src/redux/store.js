@@ -1,11 +1,13 @@
 import {createStore, combineReducers} from 'redux'
 import contador from '../components/contador/redux/reducers'
 import placar from '../components/placar/redux/reducers'
+import todolist from '../components/todolist/redux/reducers'
 
 // eslint-disable-next-line
 const allReducers = combineReducers({
   contador,
-  placar
+  placar,
+  todolist
 })
 
 

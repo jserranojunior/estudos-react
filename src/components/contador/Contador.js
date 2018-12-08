@@ -15,14 +15,14 @@ class Contador extends Component {
   render() {
     return (
       <div className="App">
-        <card>
+        <div className="card">
         <div className="card-body text-center">  
           <h2>CONTADOR</h2>
           <h3>{this.props.contador}</h3>
           <button className="btn btn-danger" onClick={this.decrementar}>-</button>    
           <button className="btn btn-success" onClick={this.incrementar}>+</button>  
         </div>        
-        </card>
+        </div>
       </div>
     );
   }
