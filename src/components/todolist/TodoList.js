@@ -23,6 +23,7 @@ import { connect } from 'react-redux'
     this.setState({
       inputTarefas:''
     })
+    
   }
 
   render = () => {
