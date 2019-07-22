@@ -43,9 +43,7 @@ class FinanceiroIndex extends Component {
             <div>
                 <h1 className="text-center">Financeiro</h1>
                 <div className="row">
-
                     {categories}
-
                 </div>
 
 
